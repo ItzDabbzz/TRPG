@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, 'IBM Plex Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'IBM Plex Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+}
+
+body, html {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #26262B;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0 20px 0;
+  font-family: 'IBM Plex Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 50px;
+  color: #F9EF00;
+  font-family: 'IBM Plex Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+}
+
+header p {
+  font-size: 20px;
+  color: #C4C4C4;
+  font-family: 'IBM Plex Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #C4C4C4;
+  margin: 10px 0 10px 0;
+}
+
+footer p {
+  margin: 5px 0 5px 0;
+  color: #FFFFFF;
+  font-family: 'IBM Plex Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+}
